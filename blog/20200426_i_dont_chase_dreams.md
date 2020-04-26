@@ -1,6 +1,6 @@
-# I don't chase dream, I hunt goal
+# I don't chase dreams, I hunt goals
 
-![I dont' chase dream, I hunt goal](https://user-images.githubusercontent.com/4539428/80296473-dfa97600-87a5-11ea-93d1-66ff89e0fd27.jpg)
+![I dont' chase dreams, I hunt goals](https://user-images.githubusercontent.com/4539428/80296473-dfa97600-87a5-11ea-93d1-66ff89e0fd27.jpg)
 
 Mấy hôm trước đọc được câu nói này của **Conor McGregor** thì mình có vài luồng suy nghĩ.
 
