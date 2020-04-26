@@ -4,7 +4,7 @@
 
 Mấy hôm trước đọc được câu nói này của **Conor McGregor** thì mình có vài luồng suy nghĩ.
 
-Đối với mình, _mơ là những điều xa xôi, khó với tới; là những khát khao, mong ước của con người; tuy không rõ ràng nhưng lại góp phần cho cuộc sống thêm màu sắc, thêm hi vọng, thêm ý tưởng sáng tạo.
+Đối với mình, mơ là những điều xa xôi, khó với tới; là những khát khao, mong ước của con người; tuy không rõ ràng nhưng lại góp phần cho cuộc sống thêm màu sắc, thêm hi vọng, thêm ý tưởng sáng tạo.
 
 Mục tiêu là những thành tích, thành tựu mà con người muốn đạt đến và được xác định rõ ràng, có thể được phân rã ra thành các mục tiêu, công việc nhỏ hơn.
 
