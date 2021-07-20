@@ -6,7 +6,7 @@ Sau khi đọc một mớ bài viết thì mình nhận ra rằng, UTC có thể
 
 Do đó:
 1. Database nên lưu trữ giờ UTC+00:00 để dễ convert ra UTC hoặc ISO8601. Và dễ dàng migrate database sang các database server khác, đồng nhất giữa các service cho việc chuyển đổi thời gian.
-1. Dockerfile không nên có những đoạn script đổi múi giờ trong đó.
+1. Dockerfile không nên có những đoạn script đổi múi giờ trong đó mà build image. Việc chạy múi giờ nào thì để lúc deploy quyết định.
 1. Service ở mỗi vùng có thể có múi giờ khác nhau.
 1. APIs, Web services và các hệ thống nên dùng format input và output là ISO8601 để tiện cho việc chuyển đổi và hiển thị thời gian.
 
@@ -21,4 +21,5 @@ Do đó:
     - [Ngày 30 tháng 2 có tồn tại](https://www.timeanddate.com/date/february-30.html)
     - Đồng hồ không có số 0 vì trong số La Mã không có ký tự nào đại diện cho số 0
     - Download được [Whitepaper về Recurring của Martin Fowler](https://martinfowler.com/apsupp/recurring.pdf)
+    - UTC có thể xem là một _định dạng thời gian_ chứ không phải là múi giờ +00:00, việc viết UTC mà không ghi rõ múi giờ thì _mặc định là +00:00_, đây là điều mình luôn lầm tưởng đó giờ. Lợi ích của dùng UTC là nó không quan tâm múi giờ, nó chỉ biết so sánh thời gian của múi giờ +00:00 đến vị trí (offset) của múi giờ cần so sánh. Do không quan tâm timezone nên cũng bỏ qua luôn Daylight Saving Time (DST - việc tăng giảm 1 giờ vào một số ngày nhất định trong năm ở một số khu vực trên thế giới)
 1. https://kylekatarnls.medium.com/always-use-utc-dates-and-times-8a8200ca3164
