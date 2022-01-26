@@ -43,11 +43,11 @@ Thay vì Wowy lại muốn thành viên *tròn trịa* thì Karik lại muốn t
 
 Khi cả team thành công, thì ngoài việc cả thành viên thành công, thì người khác nhìn vào thấy rất rõ nếu không có một lãnh đạo tốt thì team này chưa chắc thành công.
 
-## Phong cách số 3: lãnh đạo giỏi nhưng có vẻ chưa hợp với thành viên
+## Phong cách số 3: người lãnh đạo giỏi nhưng có vẻ chưa hợp với thành viên
 
 Huấn luyện viên đại diện: Rhymastic.
 
-Rhymastic giỏi, giỏi về giai điệu, producing, lyrics. Những thành viên mà Rhymastic đào tạo thì vẫn có phát triển, nhưng đâu đó trong thành quả của các thành viên không thấy rõ sự đóng góp của Rhymastic.
+Rhymastic giỏi, giỏi về giai điệu, producing, lyrics. Những thành viên mà Rhymastic đào tạo thì vẫn có phát triển, nhưng đâu đó trong thành quả của các thành viên không thấy rõ sự đóng góp của Rhymastic. Người lãnh đạo có nhiều kỹ năng giỏi, tiếc là họ không giỏi lãnh đạo.
 
 Mình không có nhiều điều để nói về Rhymastic.
 
