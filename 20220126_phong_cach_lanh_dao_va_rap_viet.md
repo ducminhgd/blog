@@ -22,6 +22,7 @@ Tóm lại, các điểm mình thấy ở Wowy và đại diện cho phong cách
 - Kỹ năng quan sát tốt.
 - Biết rõ tại một thời điểm, ai nên là nhân vật chính. Sẵn sàng lùi xuống cho đàn em tiến lên.
 - Làm nền cho thành viên.
+- Như Trấn Thành có nói trong lúc biểu diễn trao giải: "Wowy cho thành viên lối tư duy". (dòng này đang nghe chương trình, bỏ vào luôn =)) )
 
 Suboi cũng giống như Wowy, nhưng đâu có vẻ "quan sát" và kinh nghiệm chưa tốt bằng Wowy.
 Khi cả team thành công, phong cách này thường nói là "tôi có làm gì đâu? đàn em làm hết".
@@ -30,7 +31,7 @@ Khi cả team thành công, phong cách này thường nói là "tôi có làm g
 
 Huấn luyện viên đại diện: Karik.
 
-Mình thấy kể cả trong nhạc thì Karik khá là "giằng xéo", khó tính, chỉ chu, làm cái gì là phải làm cho tới... không biết có bị OCD không? =))
+Mình thấy kể cả trong nhạc thì Karik khá là "giằng xéo", khó tính, chỉn chu, nhạy cảm, làm cái gì là phải làm cho tới... không biết có bị OCD không? =))
 
 Cách Karik đào tạo thành viên mình có cảm giác rất khó tính và phát xít, cũng giống như Wowy là đầu tư suy nghĩ nhiều, hơi khác tí là Karik suy nghĩ "thay luôn" cho thành viên trong team, nghĩa là đâu đó suy nghĩ luôn việc *nếu bạn ấy là không được thì mình cover*.
 
