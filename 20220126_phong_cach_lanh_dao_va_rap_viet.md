@@ -12,7 +12,7 @@ Mình để ý thì các thành viên mà Wowy chọn ngoài việc theo Wowy n�
 
 Các thành viên về với đội Wowy thì các vòng sau đều có vẻ *thay đổi thấy rõ* và mình cảm nhận **họ thật sự không thay đổi, chỉ là lộ rõ ra các đặc trưng riêng**.
 
-Dựa vào hai phần trình diễn của Wowy với G-Ducky mùa 1 và với Blacka mùa 2, thì mình thấy là Wowy đều trở thành bạn diễn của thí sinh. Điều này cũng thấy ở Justa Tee.
+Dựa vào hai phần trình diễn của Wowy với Dế Choắt mùa 1 và với Blacka mùa 2, thì mình thấy là Wowy đều trở thành bạn diễn của thí sinh. Điều này cũng thấy ở Justa Tee.
 
 Tóm lại, các điểm mình thấy ở Wowy và đại diện cho phong cách này là:
 - Để thành viên là chính họ, bung hết chất mình.
