@@ -59,6 +59,8 @@ Theo cảm nhận cá nhân mình thì Binz nhạc thị trường, phù hợp v
 
 Đâu đó với mình, Binz không đào tạo hay phát triển được một thí sinh nào cả. Binz có thể là một *individual contributor* tốt nhưng lại là một lãnh đạo kém do không có tính leadership.
 
+Nói xa hơn tí, không nói về Binz, có nhiều bạn lãnh đạo hay chiếm spotlight, *cướp công* thành viên lắm, thành viên làm xong, bạn ấy đi report lại bạn ấy làm.
+
 ## Kết
 
 Mình thì thích nhạc Karik và mình cũng đang quản lý các team của mình theo phong cách số 2, mình khá phát xít và sống theo bản năng.
