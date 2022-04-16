@@ -13,3 +13,5 @@ Những ý mà mình cảm thấy thích khi đọc là:
 - Các công ty thất bại thường hay có những buổi báo cáo số liệu lòe loẹt, màu mè để trấn an nhau trong khi sự thật là đang vật lộn sống sót.
 - Chỉ cần làm đúng cái mình giỏi và mình quan tâm nó, thì tự khắc nó sẽ tốt. Các công ty đá nhiều sân thường không nhảy vọt.
 - Công ty có nhiều giai cấp là công ty nhiều quan liêu. Trong sách có nói đến việc những lãnh đạo của các công ty nhảy vọt thường bỏ đi những chế độ riêng cho lãnh đạo như là "máy bay riêng cho CEO".
+- Các công ty nhảy vọt thường không nghĩ họ sẽ làm gì vĩ đại hay tăng doanh thu, họ chỉ nghĩ là tạo ra điều gì đó tốt đẹp cho thế giới --> Tâm tốt thì mọi việc còn lại sẽ tốt.
+- Tiền là cái cần thiết giống như nước và máu trong cơ thể, nhưng nó không phải mục tiêu để sống.
