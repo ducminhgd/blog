@@ -22,3 +22,9 @@ Sách được phân làm 8 chương theo hướng từ khi một nhân viên v�
 - Tác giả có nêu lên một số tư tưởng "lý thuyết", xa xỉ, phù phiếm cần được bỏ qua, cần được nhìn nhận lại. Trong đó, mình mắc phải vài cái.
 - Cách tốt nhất để dập tắt những tin đồn, lo lắng, dư luận là minh bạch thông tin.
 - Hãy tuyển những người thật sự tài năng, họ sẽ giải quyết vấn đề của doanh nghiệp, chứ đừng tuyển số lượng đông, sẽ tốn nhiều thời gian cho việc quản lý mà chất lượng công việc chưa chắc sẽ tốt. -> Chắc nên phỏng vấn khó hơn tí.
+
+## Sách thích hợp cho
+
+- Các quản lý cấp cao
+- Các nhà tuyển dụng, nhân sự.
+- Các quản lý cấp trung.
