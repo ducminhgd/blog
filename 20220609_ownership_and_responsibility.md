@@ -20,3 +20,8 @@ Không có cái nào cần thiết hơn mà là cả hai đều cần như nhau,
 
 - Khi có **ownership** thì con người ta là người cầu tiến, tự tin, sẵn sàng nhận vị trí, công việc mới, nó giúp mình có thể học hỏi được nhiều hơn, có nhiều trải nghiệm hơn.
 - Khi có **responsibility** thì con người ta *"trưởng thành"* hơn, khiêm tốn hơn.
+
+## Link đọc thêm
+
+1. https://www.linkedin.com/pulse/difference-between-ownership-responsibility-kerwin-rae/
+2. https://www.linkedin.com/pulse/ownership-responsibility-software-development-teams-kaspar-lyngsie/
