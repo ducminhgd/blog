@@ -1,6 +1,6 @@
 # Ownership, Responsibility, Accountability (ORA)
 
-> Bài tiếp theo của [Ownership và responsibility](20220609_ownership_and_responsibility.md)
+> Bài tiếp theo của [Ownership và responsibility](2022/20220609_ownership_and_responsibility.md)
 
 Hôm qua trên một cộng đồng Tech của Việt Nam có nói về một drama và dẫn theo đó thì có bàn về Ownership (sẽ viết tắt là O). O cũng là một dạng trách nhiệm, do không biết dịch ra tiếng Việt thế nào nên mình tìm kiếm thêm các tài liệu, bài viết về Ownership (0), Responsibility (R) và đọc thêm về Accountable (A)
 
