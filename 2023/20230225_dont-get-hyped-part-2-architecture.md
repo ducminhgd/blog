@@ -10,7 +10,7 @@
 
 ## Boundary & scope
 
-Việc phân tách thành Microservices phải dựa trên những team chí về nguồn lực hoặc domain của các services. Phân chia không rõ ràng, dẫn đến việc service này phải quản lý dữ liệu, hoặc chứa dữ liệu trùng, hoặc có một phần logic nghiệm vụ của service khác hoặc phải nhân bản service này ra thành service khác. Ví dụ: hệ thống có một User Service chuyên dùng để quản lý người dùng, phân quyền; một ngày nào đó, do nhu cầu phát triển mà có quản lý người dùng hệ thống, người dùng cuối và kể cả đối tác thì vô tình bị clone ra thành Admin User Service, User Service và Partner Service; trong khi cả 3 service đều làm chung nhiệm vụ nhưng lại do cho các nhóm đối tượng khác nhau, dẫn đến việc các service khác sử dụng dịch vụ với cùng một logic nhưng phải phân biệt khi nào nên gọi service nào.
+Việc phân tách thành Microservices phải dựa trên những tiêu chí về nguồn lực hoặc domain của các services. Phân chia không rõ ràng, dẫn đến việc service này phải quản lý dữ liệu, hoặc chứa dữ liệu trùng, hoặc có một phần logic nghiệm vụ của service khác hoặc phải nhân bản service này ra thành service khác. Ví dụ: hệ thống có một User Service chuyên dùng để quản lý người dùng, phân quyền; một ngày nào đó, do nhu cầu phát triển mà có quản lý người dùng hệ thống, người dùng cuối và kể cả đối tác thì vô tình bị clone ra thành Admin User Service, User Service và Partner Service; trong khi cả 3 service đều làm chung nhiệm vụ nhưng lại do cho các nhóm đối tượng khác nhau, dẫn đến việc các service khác sử dụng dịch vụ với cùng một logic nhưng phải phân biệt khi nào nên gọi service nào.
 
 ## Design Patterns
 
