@@ -1,4 +1,4 @@
-# Don't get hyped - Part 2: Architecture
+# Don't get hyped - Part 2: Microservices
 
 Ở phần này mình sẽ nói về Microservices, một thiết kế mà nhiều người đang ca tụng và làm theo những cách sai lầm khác nhau.
 
