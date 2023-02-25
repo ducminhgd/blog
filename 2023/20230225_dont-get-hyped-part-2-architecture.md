@@ -2,6 +2,8 @@
 
 Ở phần này mình sẽ nói về Microservices, một thiết kế mà nhiều người đang ca tụng và làm theo những cách sai lầm khác nhau.
 
+> *Lưu ý: trong bài này mình sẽ sử dụng Anh-Việt lẫn lộn vì có một số từ mình không nghĩ ra được cách dịch hay và đúng, nên mình giữ nguyên tiếng Anh*
+
 ## Không độc lập
 
 Đa số lý do mà đa số người hay nói về *Tại sao nên dùng Microservices* đó là *nếu một service bị chết thì các service khác vẫn chạy bình thường*. Và OK! Nó đúng! Rất nhiều service mà mình tham gia điều tra hậu sự cố thì đúng là *các service khác vẫn chạy bình thường* **nhưng không hoạt động bình thường**. Nghĩa là instance/pod/VM của các service liên quan vẫn chạy, healthcheck vẫn tốt và không có request gọi vào, nếu có là phát sinh lỗi. Và đâu đó, dấu hiệu này thường đi kèm là khi deploy services lúc ban đầu, tất cả phải deploy cùng lúc, không có cái lên trước lên sau.
