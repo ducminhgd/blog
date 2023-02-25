@@ -8,6 +8,8 @@
 
 Đa số lý do mà đa số người hay nói về *Tại sao nên dùng Microservices* đó là *nếu một service bị chết thì các service khác vẫn chạy bình thường*. Và OK! Nó đúng! Rất nhiều service mà mình tham gia điều tra hậu sự cố thì đúng là *các service khác vẫn chạy bình thường* **nhưng không hoạt động bình thường**. Nghĩa là instance/pod/VM của các service liên quan vẫn chạy, healthcheck vẫn tốt và không có request gọi vào, nếu có là phát sinh lỗi. Và đâu đó, dấu hiệu này thường đi kèm là khi deploy services lúc ban đầu, tất cả phải deploy cùng lúc, không có cái lên trước lên sau.
 
+Có một thuật ngữ dành để gọi cho hệ thống kiểu này là *distributed monolith*.
+
 ## Boundary & scope
 
 Việc phân tách thành Microservices phải dựa trên những tiêu chí về nguồn lực hoặc domain của các services. Phân chia không rõ ràng, dẫn đến việc service này phải quản lý dữ liệu, hoặc chứa dữ liệu trùng, hoặc có một phần logic nghiệm vụ của service khác hoặc phải nhân bản service này ra thành service khác. Ví dụ: hệ thống có một User Service chuyên dùng để quản lý người dùng, phân quyền; một ngày nào đó, do nhu cầu phát triển mà có quản lý người dùng hệ thống, người dùng cuối và kể cả đối tác thì vô tình bị clone ra thành Admin User Service, User Service và Partner Service; trong khi cả 3 service đều làm chung nhiệm vụ nhưng lại do cho các nhóm đối tượng khác nhau, dẫn đến việc các service khác sử dụng dịch vụ với cùng một logic nhưng phải phân biệt khi nào nên gọi service nào.
