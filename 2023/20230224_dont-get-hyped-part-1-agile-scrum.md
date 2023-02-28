@@ -1,0 +1,25 @@
+# Don't get hyped - Part 1: Agile/Scrum
+
+> **Don't get hyped** là loạt bài viết nói về những công cụ, công nghệ đang bị được tôn sùng, được ca ngợi quá đà và được áp dụng ồ ạt theo trend, áp dụng vô tội vạ nhưng chưa đúng dẫn đến việc phức tạp hóa vấn đề, dùng dao mổ trâu để giết gà.
+
+Hôm qua mình nói chuyện với một bạn QC, bạn ấy chia sẻ với mình là team bạn ấy dùng Scrum để vận hành và đầu sprint lúc nào cũng rảnh, cuối sprint thì QC chạy nhanh mới test kịp. Mình bắt đầu nghe mùi công ty/nhóm của bạn đang bị dùng Agile/Scrum chưa đúng.
+
+**Thứ nhất**, về số lượng thành viên, team của bạn gần 20 người mà dùng Agile Scrum thì mình thấy nó không đáp ứng được tính thích ứng và không có "nhanh" được tí nào. Việc số lượng thành viên đông, thông thường sẽ gây ra việc khó quản lý, cụ thể:
+
+- Tốn thêm thời gian họp. Ví dụ một sprint hai tuần thì [thời gian planning đâu đó tầm 4 tiếng](https://www.wrike.com/scrum-guide/faq/what-is-sprint-planning-timebox/); ngoài ra còn những buổi họp khác, và càng nhiều thành viên thì mình càng phải tốn nhiều thời gian hơn để thảo luận, chưa tính đến việc càng nhiều người thì càng gia tăng số lượng người không liên quan vấn đề đang bàn cũng phải ngồi nghe -> phí thời gian của những người không liên quan đó.
+- Khó trong việc quản lý việc. Đông người dẫn đến việc phải kéo nhiều story point hơn vì workloads nhiều hơn, tuy nhiên thì nhiều việc trong một sprint thường gây ra rủi ro là nhiều việc phải phụ thuộc lẫn nhau, dẫn đến việc này phải chờ việc kia.
+-> Theo mình, số lượng đẹp cho một Scrum Team là 5±2.
+
+**Thứ hai**, về phần việc phải hoàn thành, theo bạn chia sẻ thì mình thấy cái mà các bạn cần hoàn thành trong sprint là tính năng, trong khi *cái cần hoàn thành trong sprint của Scrum là **công việc** mới đúng*. Cụ thể, một tính năng các bạn cần làm, các bạn ước lượng từ lúc làm đến lúc test và release, đều này tạo nên việc đầu sprint dev bận, cuối sprint QC bận. Mình nghĩ công việc "viết code" và công việc "test tính năng" nó đều nằm trong Epic tính năng đó, sprint này thì dev chạy trước, sprint sau thì đến QC chạy để hoàn thành epic, như vậy sẽ tận dụng được tối đa nguồn lực nhân sự và thời gian. Trong Agile/Scrum có cái tư tưởng **mọi người trong team đều như nhau**, thay vì *biến thành viên trong team như nhau* thì có thể *tạo ra một team từ các thành viên như nhau*: tách team developer riêng, team tester riêng, và họ làm công việc của họ thôi.
+
+Ngoài ra, công việc nên được chia nhỏ ra để có thể hoàn thành trong ngày, khi đó thì mình có thể tự ước lượng thời gian, timeline của chính bản thân mình. Đặc biệt là khi rời khỏi văn phòng, thì tự hào rằng việc hôm nay xong, không vướng bận gì cả.
+
+**Thứ ba**, dự án team bạn là dự án product cho công ty startup, nếu đã startup thì cá nhân mình nghĩ dùng Kanban, Shapeup sẽ hợp hơn Scrum. Mình thấy Scrum thì phải tìm hiểu phân tích rõ, đủ yêu cầu này nọ. Còn môi trường/dự án startup thì có nhiều thứ cần trải nghiệm, cần kiểm nghiệm, cái gọi là "rõ ràng" thì nó đã không rõ ràng rồi.
+
+**Thứ tư**, bạn có chia sẻ với mình là việc kéo task ra, đẩy task vào cũng thường xuyên, và kéo theo số point tương ứng như những gì Scrum có hướng dẫn. Có điều, Scrum tạo ra để thích ứng thay đổi chứ *không phải dùng Scrum để tự do thay đổi*, muốn đổi lúc nào đổi. Scrum thích ứng thay đổi là chia làm các vòng lặp nhỏ để có thể tiếp nhận phản hồi và thay đổi vào các vòng lặp sau. Còn trong vòng lặp, hạn chế thay đổi nhất có thể. Việc thay đổi sprint liên tục và đổi sprint goal thì nói thẳng là các bạn làm việc chẳng có kế hoạch gì cả. Và như ý thứ ba phía trên thì, startup hay khởi đầu dự án thì đừng có xài Scrum làm gì vì trong giai đoạn đầu thì cần đi nhanh, nếu muốn vững thì nên thêm những người có kinh nghiệm vào làm.
+
+**Thứ năm**, sau khi mình hỏi về cách đánh số point thì bạn nói là team dựa vào năng lực team, và cái *năng lực team* mà bạn nói là năng lực của thành viên nhận việc đó chứ không phải đánh theo độ phức tạp của công việc. Việc này sẽ phát sinh khi người có nhiều kinh nghiệm hơn đánh giá task dễ, sau đó người làm lại là người ít kinh nghiệm hơn, thông thường người làm sẽ bị áp lực gián tiếp so sánh bản thân mình với người đánh giá thông qua story point.
+
+**Thứ sáu**, giao việc trực tiếp cho một người chứ thành viên không tự nhận task. Việc này bắt nguồi từ việc ước lượng sai cách, ước lượng story point theo năng lực của một ai đó nên đa số mặc định là để người đó làm luôn. Ngoài ra, việc giao task cho người khác, cho dù người khác xong task thì cũng không tiện lấy task của người khác mà làm. Dẫn đến việc không tận dụng tối đa được nguồn lực.
+
+**Thứ bảy**, cái này là bonus thôi chứ không phải vấn đề, mình nghĩ là daily meeting nên cắt bớt. Cắt bớt là về số lượng buổi họp lẫn thời gian. Thông thường thì mọi người hay báo cáo kiểu "hôm qua làm gì, hôm nay làm gì". Do các công việc thường được thảo luận cách làm trong grooming và planning rồi, nên mình đề xuất trong các buổi daily meeting thì chỉ cần nêu lên khó khăn chưa giải quyết được, khó khăn cần giúp đỡ thôi, nên tăng tương tác trong giờ làm việc, chứ không phải mọi chuyện đợi lúc daily meeting mới nói.
