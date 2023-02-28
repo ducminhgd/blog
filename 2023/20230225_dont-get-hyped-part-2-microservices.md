@@ -22,7 +22,7 @@ Do một số người có suy nghĩ là "Microservice phải nhỏ" nhưng nh�
 
 ## Design Patterns
 
-Một vấn đề khác nữa là về thiết kế. Thường thấy có hai hướng sai là: sử dụng không đúng thiết kế hoặc là chế cháo cái thiết kế trời ơi đất hỡi. Ví dụ, nghe một cái thuộc ngữ là `Event-Driven Design` là cái gì cũng tạo thành event, rồi đẻ ra cái gọi là event bus, sau đó là theo kiểu đồng bộ (synchronous) thông qua event bus đó. Thật sự, muốn làm gì thì mình nghĩ là lên đọc hết các pattern trên https://microservices.io là đủ để làm rồi.
+Một vấn đề khác nữa là về thiết kế. Thường thấy có hai hướng sai là: sử dụng không đúng thiết kế hoặc là chế cháo cái thiết kế trời ơi đất hỡi. Ví dụ, nghe một cái thuộc ngữ là `Event-Driven Design` là cái gì cũng tạo thành event, rồi đẻ ra cái gọi là event bus, sau đó là theo kiểu đồng bộ (synchronous) thông qua event bus đó. Thật sự, muốn làm gì thì mình nghĩ là lên đọc hết các pattern trên <https://microservices.io> là đủ để làm rồi.
 
 ## Logging và database độc lập
 
