@@ -1,5 +1,7 @@
 # Don't get hyped - Part 2: Microservices
 
+> **Don't get hyped** là loạt bài viết nói về những công cụ, công nghệ đang bị được tôn sùng, được ca ngợi quá đà và được áp dụng ồ ạt theo trend, áp dụng vô tội vạ nhưng chưa đúng dẫn đến việc phức tạp hóa vấn đề, dùng dao mổ trâu để giết gà.
+
 Ở phần này mình sẽ nói về Microservices, một thiết kế mà nhiều người đang ca tụng và làm theo những cách sai lầm khác nhau.
 
 > *Lưu ý: trong bài này mình sẽ sử dụng Anh-Việt lẫn lộn vì có một số từ mình không nghĩ ra được cách dịch hay và đúng, nên mình giữ nguyên tiếng Anh*
