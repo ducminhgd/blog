@@ -1,6 +1,6 @@
 # Don't get hyped - Part 1: Agile/Scrum
 
-> **Don't get hyped** là loạt bài viết nói về những công cụ, công nghệ đang bị hưởng ứng quá đà, được tôn sùng, được ca ngợi là giải quyết vấn đề một cách chưa đúng. Nhưng không có gì là viên đạn bạc cả, đôi khi mình không cần dùng dao mổ trâu để giết gà. Đừng phức tạp hóa vấn đề.
+> **Don't get hyped** là loạt bài viết nói về những công cụ, công nghệ đang bị được tôn sùng, được ca ngợi quá đà và được áp dụng ồ ạt theo trend, áp dụng chưa đúng dẫn đến việc phức tạp hóa vấn đề, dùng dao mổ trâu để giết gà.
 
 Hôm qua mình nói chuyện với một bạn QC, bạn ấy chia sẻ với mình là team bạn ấy dùng Scrum để vận hành và đầu sprint lúc nào cũng rảnh, cuối sprint thì QC chạy nhanh mới test kịp. Mình bắt đầu nghe mùi công ty/nhóm của bạn đang bị dùng Agile/Scrum chưa đúng.
 
