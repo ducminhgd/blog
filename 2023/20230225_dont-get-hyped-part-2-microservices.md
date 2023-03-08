@@ -12,7 +12,7 @@
 
 Có một thuật ngữ dành để gọi cho hệ thống kiểu này là *distributed monolith*.
 
-Và để có thể giúp cho các Microservices bớt phụ thuộc nhau thì lúc xác định chia ra các Microservices, thì phải định rõ được đây là ranh giới (Boundary) và đâu là phạm vi (Scope) của từng Microservice.
+Và để có thể giúp cho các Microservices bớt phụ thuộc nhau thì lúc xác định chia ra các Microservices, thì phải định rõ được đâu là ranh giới (Boundary) và đâu là phạm vi (Scope) của từng Microservice.
 
 ## Boundary & scope
 
