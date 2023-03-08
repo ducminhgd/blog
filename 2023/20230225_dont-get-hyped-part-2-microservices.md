@@ -8,21 +8,31 @@
 
 ## Không độc lập
 
-Đa số lý do mà đa số người hay nói về *Tại sao nên dùng Microservices* đó là *nếu một service bị chết thì các service khác vẫn chạy bình thường*. Và OK! Nó đúng! Rất nhiều service mà mình tham gia điều tra hậu sự cố thì đúng là *các service khác vẫn chạy bình thường* **nhưng không hoạt động bình thường**. Nghĩa là instance/pod/VM của các service liên quan vẫn chạy, healthcheck vẫn tốt và không có request gọi vào, nếu có là phát sinh lỗi. Và đâu đó, dấu hiệu này thường đi kèm là khi deploy services lúc ban đầu, tất cả phải deploy cùng lúc, không có cái lên trước lên sau.
+Đa số lý do mà đa số người hay nói về *Tại sao nên dùng Microservices* đó là *nếu một service bị chết thì các service khác vẫn chạy bình thường*. Và OK! Nó đúng! Rất nhiều service mà mình tham gia điều tra hậu sự cố thì đúng là *các service khác vẫn chạy bình thường* **nhưng không hoạt động bình thường**. Nghĩa là instance/pod/VM của các service liên quan vẫn chạy, healthcheck vẫn tốt và không có request gọi vào, nếu có thì phát sinh lỗi. Và đâu đó, dấu hiệu này thường đi kèm là khi deploy services lúc ban đầu, tất cả phải deploy cùng lúc, không có cái lên trước lên sau và chấp nhận downtime.
 
 Có một thuật ngữ dành để gọi cho hệ thống kiểu này là *distributed monolith*.
 
+Và để có thể giúp cho các Microservices bớt phụ thuộc nhau thì lúc xác định chia ra các Microservices, thì phải định rõ được đây là ranh giới (Boundary) và đâu là phạm vi (Scope) của từng Microservice.
+
 ## Boundary & scope
 
-Việc phân tách thành Microservices phải dựa trên những tiêu chí về nguồn lực hoặc domain của các services. Phân chia không rõ ràng, dẫn đến việc service này phải quản lý dữ liệu, hoặc chứa dữ liệu trùng, hoặc có một phần logic nghiệm vụ của service khác hoặc phải nhân bản service này ra thành service khác. Ví dụ: hệ thống có một User Service chuyên dùng để quản lý người dùng, phân quyền; một ngày nào đó, do nhu cầu phát triển mà có quản lý người dùng hệ thống, người dùng cuối và kể cả đối tác thì vô tình bị clone ra thành Admin User Service, User Service và Partner Service; trong khi cả 3 service đều làm chung nhiệm vụ nhưng lại do cho các nhóm đối tượng khác nhau, dẫn đến việc các service khác sử dụng dịch vụ với cùng một logic nhưng phải phân biệt khi nào nên gọi service nào.
+Việc phân tách thành Microservices phải dựa trên những tiêu chí về nguồn lực hoặc domain của các services. Phân chia không rõ ràng, dẫn đến việc:
+
+- service này phải quản lý dữ liệu, hoặc chứa dữ liệu trùng,
+- hoặc có một phần logic nghiệm vụ của service khác,
+- hoặc phải nhân bản service này ra thành service khác.
+
+Ví dụ: hệ thống có một User Service chuyên dùng để quản lý người dùng, phân quyền; một ngày nào đó, do nhu cầu phát triển mà có quản lý người dùng hệ thống, người dùng cuối và kể cả đối tác thì vô tình bị clone ra thành Admin User Service, User Service và Partner Service; trong khi cả 3 service đều làm chung nhiệm vụ nhưng lại do cho các nhóm đối tượng khác nhau, dẫn đến việc các service khác sử dụng dịch vụ với cùng một logic nhưng phải phân biệt khi nào nên gọi service nào.
+
+Đọc thêm: [Decomposition trên Microservice.io](https://microservices.io/patterns/index.html)
 
 ## Services quá nhỏ
 
-Do một số người có suy nghĩ là "Microservice phải nhỏ" nhưng nhỏ bao nhiêu là đủ thì lại không xác định được, do việc phân tách làm không đúng, không chia phạm vi rõ ràng và kèm theo tư tưởng là Microservice thì dễ dàng tích hợp, dẫn đến việc đẻ ra cho một đống nanoservice chỉ là những việc lặt vặt mà xem nó hẳn là microservice, tốn thêm nguồn lực để phát triển và duy trì. Viễc này góm phần tăng độ phức tạp lên.
+Do một số người có suy nghĩ là "Microservice phải nhỏ" nhưng nhỏ bao nhiêu là đủ thì lại không xác định được, do việc phân tách làm không đúng, không chia phạm vi rõ ràng và kèm theo tư tưởng là càng nhiều Microservice thì dễ dàng tích hợp, dẫn đến việc đẻ ra cho một đống nanoservice chỉ là những việc lặt vặt mà xem nó hẳn là microservice, tốn thêm nguồn lực để phát triển và duy trì. Viễc này góp phần tăng độ phức tạp của dự án lên.
 
 ## Design Patterns
 
-Một vấn đề khác nữa là về thiết kế. Thường thấy có hai hướng sai là: sử dụng không đúng thiết kế hoặc là chế cháo cái thiết kế trời ơi đất hỡi. Ví dụ, nghe một cái thuộc ngữ là `Event-Driven Design` là cái gì cũng tạo thành event, rồi đẻ ra cái gọi là event bus, sau đó là theo kiểu đồng bộ (synchronous) thông qua event bus đó. Thật sự, muốn làm gì thì mình nghĩ là lên đọc hết các pattern trên <https://microservices.io> là đủ để làm rồi.
+Một vấn đề khác nữa là về thiết kế. Thường thấy có hai hướng sai là: sử dụng không đúng thiết kế hoặc là chế cháo cái thiết kế trời ơi đất hỡi. Ví dụ, nghe một cái thuộc ngữ là `Event-Driven Design` là cái gì cũng tạo thành event, rồi đẻ ra cái gọi là event bus, sau đó là theo kiểu đồng bộ (synchronous) thông qua event bus đó. Thật sự, muốn làm gì thì mình nghĩ là lên đọc hết các pattern trên <https://microservices.io> là đủ để làm rồi. Việc thiết kế kiến trúc (Architecture) của một phần mềm, hệ thống không kỹ có thể dẫn để việc hệ thống đó không thể chạy lâu dài được do không thể phát triển tiếp hoặc không bảo trì được.
 
 ## Logging và database độc lập
 
