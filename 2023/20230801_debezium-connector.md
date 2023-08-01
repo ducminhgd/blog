@@ -13,3 +13,5 @@
     ...
 }
 ```
+
+https://docs.confluent.io/platform/current/connect/transforms/regexrouter.html#remove-part-of-a-topic-name
