@@ -6,3 +6,4 @@
   - [Don't get hyped - Part 3: Technical stack](./20230226_dont-get-hyped-part-3-technical-stack.md)
 - [Đừng làm anh hùng](./20230331_dung-lam-anh-hung.md)
 - [Debezium Connector](./20230801_debezium-connector.md)
+- [The Bee and the Fly](./20231117_the-bee-and-the-fly.md)
