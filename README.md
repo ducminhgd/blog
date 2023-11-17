@@ -8,6 +8,7 @@
   - [Don't get hyped - Part 3: Technical stack](./2023/20230226_dont-get-hyped-part-3-technical-stack.md)
 - [Đừng làm anh hùng](./2023/20230331_dung-lam-anh-hung.md)
 - [Debezium Connector](./2023/20230801_debezium-connector.md)
+- [The be and the Fly](./2023/20231117_the-bee-and-the-fly.md)
 
 ## 2022
 
