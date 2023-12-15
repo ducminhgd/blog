@@ -7,3 +7,4 @@
 - [Đừng làm anh hùng](./20230331_dung-lam-anh-hung.md)
 - [Debezium Connector](./20230801_debezium-connector.md)
 - [The Bee and the Fly](./20231117_the-bee-and-the-fly.md)
+- [Myths in work](./20231215_myths-in-work.md)
