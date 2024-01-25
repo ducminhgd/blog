@@ -1,5 +1,9 @@
 # Blog and Note
 
+## 2024
+
+- [Chuyên nghiệp](./2024/20240125_professional-working.md)
+
 ## 2023
 
 - Don't get hyped series
