@@ -3,9 +3,11 @@
 ## 2024
 
 - [Chuyên nghiệp](./2024/20240125_professional-working.md)
-- [Database - Part 1: Normalization forms](./2024/20240226_database-part-1-normalization-forms.md)
-- [Database - Part 2: Categories of SQL](./2024/20240226_database-part-2-categories-of-SQL.md)
-- [Database - Part 3: Indexes](./2024/20240226_database-part-3-indexes.md)
+- [Đọc nhiều sẽ đọc nhanh](./2024/20240304_more-you-read-faster-you-read.md)
+- Database series
+   1. [Database - Part 1: Normalization forms](./2024/20240226_database-part-1-normalization-forms.md)
+   2. [Database - Part 2: Categories of SQL](./2024/20240226_database-part-2-categories-of-SQL.md)
+   3. [Database - Part 3: Indexes](./2024/20240226_database-part-3-indexes.md)
 
 ## 2023
 
