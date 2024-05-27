@@ -1,5 +1,9 @@
 # Blog and Note
 
+## Today I learn
+
+- [Request and response times at once using curl](./TIL/20240527_request-and-response-times-at-once-using-curl.md)
+
 ## 2024
 
 - [Chuyên nghiệp](./2024/20240125_professional-working.md)
