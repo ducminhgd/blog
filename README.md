@@ -3,6 +3,7 @@
 ## Today I learn
 
 - [Request and response times at once using curl](./TIL/20240527_request-and-response-times-at-once-using-curl.md)
+- [Python Counter](./TIL/20240612_python-counter.md)
 
 ## 2024
 
