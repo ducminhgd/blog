@@ -37,5 +37,5 @@ Counter({1: 2, 2: 1, 3: 1, 4: 1})
 
 ## Read more
 
-1. https://www.geeksforgeeks.org/python-counter-objects-elements/
-2. https://docs.python.org/3/library/collections.html#collections.Counter
+1. [https://www.geeksforgeeks.org/python-counter-objects-elements/]
+2. [https://docs.python.org/3/library/collections.html#collections.Counter]
