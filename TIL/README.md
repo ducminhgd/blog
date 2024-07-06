@@ -1,4 +1,4 @@
-# Today I learn
+# TIL
 
 - [Request and response times at once using curl](./20240527_request-and-response-times-at-once-using-curl.md)
 - [Python Counter](./20240612_python-counter.md)
