@@ -15,6 +15,7 @@
    1. [Database - Part 1: Normalization forms](./2024/20240226_database-part-1-normalization-forms.md)
    2. [Database - Part 2: Categories of SQL](./2024/20240226_database-part-2-categories-of-SQL.md)
    3. [Database - Part 3: Indexes](./2024/20240226_database-part-3-indexes.md)
+- [Ba "nghịch lý" khi đi làm](./2024/20240731_ba-ngich-ly-khi-di-lam.md)
 
 ## 2023
 
