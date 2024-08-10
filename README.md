@@ -2,10 +2,10 @@
 
 ## Today I learn
 
-- [Request and response times at once using curl](./today_I_learn/20240527_request-and-response-times-at-once-using-curl.md)
-- [Python Counter](./today_I_learn/20240612_python-counter.md)
-- [Add Holidays calendar](./today_I_learn/20240614_add-holidays-calendar.md)
-- [UUID version 7 vs UUID version 4](./today_I_learn/20240706_uuid7_vs_uuid4.md)
+- [Request and response times at once using curl](./TIL/20240527_request-and-response-times-at-once-using-curl.md)
+- [Python Counter](./TIL/20240612_python-counter.md)
+- [Add Holidays calendar](./TIL/20240614_add-holidays-calendar.md)
+- [UUID version 7 vs UUID version 4](./TIL/20240706_uuid7_vs_uuid4.md)
 - [MSRP](./TIL/20240810_MSRP.md)
 
 ## 2024
