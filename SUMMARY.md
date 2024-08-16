@@ -1,6 +1,6 @@
 # Blog and notes
 
-[About me](./README.md)
+- [About me](./README.md)
 
 - Today I learn
   - [Request and response times at once using curl](./today_I_learn/20240527_request-and-response-times-at-once-using-curl.md)
