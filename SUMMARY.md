@@ -16,6 +16,7 @@
      2. [Database - Part 2: Categories of SQL](./2024/20240226_database-part-2-categories-of-SQL.md)
      3. [Database - Part 3: Indexes](./2024/20240226_database-part-3-indexes.md)
   - [Ba "nghịch lý" khi đi làm](./2024/20240731_ba-ngich-ly-khi-di-lam.md)
+  - [Reasons to hate someone](./2024/20240801_reasons-to-hate-someone.md)
 
 - 2023
   - Don't get hyped series
