@@ -9,7 +9,7 @@ s
   - [UUID version 7 vs UUID version 4](./TIL/20240706_uuid7_vs_uuid4.md)
 
 - 2025
-  - [Những điều mình không thích ở Scrum](./2025/20250511_vi-sao-minh-chon-shape-up.md)
+  - [Vì sao mình chọn Shape Up](./2025/20250511_vi-sao-minh-chon-shape-up.md)
 
 - 2024
   - [Chuyên nghiệp](./2024/20240125_professional-working.md)
