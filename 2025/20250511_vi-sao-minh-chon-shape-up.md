@@ -1,6 +1,6 @@
 # Vì sao mình chọn Shape-Up
 
-Shape Up là một phương pháp tiếp cận trong phát triển dự án phần mềm, được xây dựng và phổ biến bởi Basecamp: https://basecamp.com/shapeup.
+[Shape Up](https://basecamp.com/shapeup) là một phương pháp tiếp cận trong phát triển dự án phần mềm, được xây dựng và phổ biến bởi Basecamp.
 
 Trong quá trình làm việc, mình nhận thấy Agile/Scrum đang được áp dụng rộng rãi tại nhiều công ty. Tuy nhiên, ở một số nơi, Scrum gần như được xem là "chuẩn mực tuyệt đối", đến mức khó hình dung được một quy trình làm việc hiệu quả mà không có nó.
 
