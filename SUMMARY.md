@@ -8,6 +8,9 @@ s
   - [Add Holidays calendar](./TIL/20240614_add-holidays-calendar.md)
   - [UUID version 7 vs UUID version 4](./TIL/20240706_uuid7_vs_uuid4.md)
 
+- 2025
+  - [Những điều mình không thích ở Scrum](./2025/20250511_vi-sao-minh-chon-shape-up.md)
+
 - 2024
   - [Chuyên nghiệp](./2024/20240125_professional-working.md)
   - [Đọc nhiều sẽ đọc nhanh](./2024/20240304_more-you-read-faster-you-read.md)
