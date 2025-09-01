@@ -10,6 +10,7 @@ s
 
 - 2025
   - [Vì sao mình chọn Shape Up](./2025/20250511_vi-sao-minh-chon-shape-up.md)
+  - [Các phép ngụy biện thường gặp chốn công sở](./2025/20250901_common-fallacy-in-working-environment.md)
 
 - 2024
   - [Chuyên nghiệp](./2024/20240125_professional-working.md)
