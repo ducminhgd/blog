@@ -1,105 +1,105 @@
 # Dao Cạo Triết Học (Philosophical Razor)
 
-**Dao cạo triết học** là một nguyên tắc hoặc phương pháp suy luận - thường được diễn đạt như một quy tắc ngắn gọn - dùng để loại bỏ những giải thích, lập luận hoặc giả thuyết ít khả năng đúng.  
+**Dao cạo triết học** là một nguyên tắc hoặc phương pháp suy luận - thường được diễn đạt như một quy tắc ngắn gọn - dùng để loại bỏ những giải thích, lập luận hoặc giả thuyết ít khả năng đúng.
 
-Từ "dao cạo" mang tính ẩn dụ: giống như dao cạo bỏ đi phần thừa trên mặt, dao cạo triết học giúp loại bỏ những giả định, sự phức tạp hoặc yếu tố không cần thiết khi suy nghĩ về một vấn đề.  
+Từ "dao cạo" mang tính ẩn dụ: giống như dao cạo bỏ đi phần thừa trên mặt, dao cạo triết học giúp loại bỏ những giả định, sự phức tạp hoặc yếu tố không cần thiết khi suy nghĩ về một vấn đề.
 
-Đây không phải là quy tắc tuyệt đối, mà là công cụ định hướng lý luận. Từng loại "dao cạo" áp dụng trong các bối cảnh khác nhau, thậm chí đôi khi còn mâu thuẫn lẫn nhau.  
+Đây không phải là quy tắc tuyệt đối, mà là công cụ định hướng lý luận. Từng loại "dao cạo" áp dụng trong các bối cảnh khác nhau, thậm chí đôi khi còn mâu thuẫn lẫn nhau.
 
 ## Sagan's Standard
 
-- Câu nói: "Những tuyên bố phi thường đòi hỏi bằng chứng phi thường."  
-- Nguồn gốc: Carl Sagan, *Cosmos* (1980).  
-- Ý nghĩa: Càng bất thường hoặc khó tin, thì bằng chứng càng phải mạnh mẽ mới có thể chấp nhận.  
+- Câu nói: "Những tuyên bố phi thường đòi hỏi bằng chứng phi thường."
+- Nguồn gốc: Carl Sagan, *Cosmos* (1980).
+- Ý nghĩa: Càng bất thường hoặc khó tin, thì bằng chứng càng phải mạnh mẽ mới có thể chấp nhận.
 - Ứng dụng: Khoa học, tư duy phản biện, hoài nghi (UFO, phép màu, thuyết âm mưu).
 - Ví dụ: Ai đó nói họ thấy rồng bay trên bầu trời thành phố. Bạn sẽ yêu cầu bằng chứng cực kỳ mạnh như video rõ ràng, nhiều nhân chứng, và xác minh khoa học.
 
 ## Grice's Razor
 
-- Câu nói: "Đừng nhân đôi ý nghĩa khi không cần thiết."  
-- Nguồn gốc: H.P. Grice, triết gia ngôn ngữ.  
-- Ý nghĩa: Khi giải thích lời nói/văn bản, tránh gán thêm nhiều nghĩa mới trừ khi thật sự cần.  
-- Ứng dụng: Ngôn ngữ học, triết học ngôn ngữ, pháp luật.  
+- Câu nói: "Đừng nhân đôi ý nghĩa khi không cần thiết."
+- Nguồn gốc: H.P. Grice, triết gia ngôn ngữ.
+- Ý nghĩa: Khi giải thích lời nói/văn bản, tránh gán thêm nhiều nghĩa mới trừ khi thật sự cần.
+- Ứng dụng: Ngôn ngữ học, triết học ngôn ngữ, pháp luật.
 - Ví dụ: Nếu ai đó nói "Cô ấy lạnh" vào mùa đông, thì hợp lý nhất là nói về thời tiết, không phải tính cách lạnh lùng.
 
 ## Hume's Guillotine (Vấn đề *Is–Ought*)
 
-- Câu nói: "Không thể suy ra cái *nên* từ cái *đang là*."  
-- Nguồn gốc: David Hume, *A Treatise of Human Nature* (1739).  
-- Ý nghĩa: Sự thật về thế giới (*is*) không tự động dẫn tới quy chuẩn đạo đức (*ought*).  
-- Ứng dụng: Đạo đức học, triết học chính trị.  
+- Câu nói: "Không thể suy ra cái *nên* từ cái *đang là*."
+- Nguồn gốc: David Hume, *A Treatise of Human Nature* (1739).
+- Ý nghĩa: Sự thật về thế giới (*is*) không tự động dẫn tới quy chuẩn đạo đức (*ought*).
+- Ứng dụng: Đạo đức học, triết học chính trị.
 - Ví dụ: Sự thật: Con người ăn thịt. → Kết luận: Vậy thì con người nên ăn thịt.
 
 ## Alder's Razor (Newton's Flaming Laser Sword)
 
-- Câu nói: "Nếu điều gì không thể giải quyết bằng thí nghiệm hoặc quan sát, thì không đáng tranh luận."  
-- Nguồn gốc: Mike Alder (2004).  
-- Ý nghĩa: Lập luận phải kiểm chứng bằng thực nghiệm; nếu không thì bỏ qua.  
-- Ứng dụng: Khoa học, tranh luận học thuật.  
+- Câu nói: "Nếu điều gì không thể giải quyết bằng thí nghiệm hoặc quan sát, thì không đáng tranh luận."
+- Nguồn gốc: Mike Alder (2004).
+- Ý nghĩa: Lập luận phải kiểm chứng bằng thực nghiệm; nếu không thì bỏ qua.
+- Ứng dụng: Khoa học, tranh luận học thuật.
 - Ví dụ: Tranh luận rằng vũ trụ được tạo ra vào thứ Ba tuần trước với ký ức giả → không thể kiểm chứng → vô nghĩa.
 
 ## Feynman's Razor
 
-- Câu nói: "Nguyên tắc đầu tiên là đừng tự lừa dối bản thân - và bạn chính là người dễ lừa dối nhất."  
-- Nguồn gốc: Richard Feynman, nhà vật lý Nobel.  
-- Ý nghĩa: Đừng tin một lời giải thích chỉ vì bạn muốn nó đúng; hãy cảnh giác với thành kiến của bản thân.  
-- Ứng dụng: Tư duy phản biện, tính trung thực khoa học, tự kiểm tra giả định.  
+- Câu nói: "Nguyên tắc đầu tiên là đừng tự lừa dối bản thân - và bạn chính là người dễ lừa dối nhất."
+- Nguồn gốc: Richard Feynman, nhà vật lý Nobel.
+- Ý nghĩa: Đừng tin một lời giải thích chỉ vì bạn muốn nó đúng; hãy cảnh giác với thành kiến của bản thân.
+- Ứng dụng: Tư duy phản biện, tính trung thực khoa học, tự kiểm tra giả định.
 - Ví dụ: Một nhà khoa học quá mong thuốc mới có tác dụng nên bỏ qua dữ liệu phản chứng.
 
 ## Hitchens's Razor
 
-- Câu nói: "Những gì được khẳng định mà không có bằng chứng có thể bị bác bỏ mà không cần bằng chứng."  
-- Nguồn gốc: Christopher Hitchens, nhà báo và tác giả.  
-- Ý nghĩa: Gánh nặng chứng minh thuộc về người đưa ra tuyên bố.  
-- Ứng dụng: Tôn giáo, giả khoa học, tranh luận chính trị.  
+- Câu nói: "Những gì được khẳng định mà không có bằng chứng có thể bị bác bỏ mà không cần bằng chứng."
+- Nguồn gốc: Christopher Hitchens, nhà báo và tác giả.
+- Ý nghĩa: Gánh nặng chứng minh thuộc về người đưa ra tuyên bố.
+- Ứng dụng: Tôn giáo, giả khoa học, tranh luận chính trị.
 - Ví dụ: Nếu ai đó khẳng định "Ma tồn tại" mà không đưa bằng chứng, bạn cũng không cần bằng chứng để bác bỏ.
 
 ## Occam's Razor
 
-- Câu nói: "Không nên nhân lên các thực thể nhiều hơn mức cần thiết."  
-- Nguồn gốc: William of Ockham (thế kỷ 14).  
-- Ý nghĩa: Ưu tiên lời giải thích đơn giản nhất phù hợp với bằng chứng.  
-- Ứng dụng: Khoa học, triết học, đời sống thường nhật.  
+- Câu nói: "Không nên nhân lên các thực thể nhiều hơn mức cần thiết."
+- Nguồn gốc: William of Ockham (thế kỷ 14).
+- Ý nghĩa: Ưu tiên lời giải thích đơn giản nhất phù hợp với bằng chứng.
+- Ứng dụng: Khoa học, triết học, đời sống thường nhật.
 - Ví dụ: Xe bạn không nổ máy. Lý do: hết xăng vs. người ngoài hành tinh lấy mất động cơ. → Hãy kiểm tra hết xăng trước.
 
 ## Hanlon's Razor
 
-- Câu nói: "Đừng quy kết ác ý cho những gì có thể giải thích bằng sự ngu ngốc."  
-- Nguồn gốc: Robert J. Hanlon, phổ biến trong *Murphy's Law* (1980).  
-- Ý nghĩa: Nhiều khi lỗi lầm đến từ bất cẩn, không phải từ ác ý.  
-- Ứng dụng: Công việc, chính trị, phân tích sai lầm con người.  
+- Câu nói: "Đừng quy kết ác ý cho những gì có thể giải thích bằng sự ngu ngốc."
+- Nguồn gốc: Robert J. Hanlon, phổ biến trong *Murphy's Law* (1980).
+- Ý nghĩa: Nhiều khi lỗi lầm đến từ bất cẩn, không phải từ ác ý.
+- Ứng dụng: Công việc, chính trị, phân tích sai lầm con người.
 - Ví dụ: Đồng nghiệp quên gửi báo cáo cho bạn. Có lẽ họ bất cẩn hơn là cố tình hại bạn.
 
 ## Riker's Razor
 
-- Câu nói: "Đừng bao giờ bỏ qua sự trùng hợp. Trừ khi bạn bận, thì hãy luôn bỏ qua nó."  
-- Nguồn gốc: Nhân vật William Riker, *Star Trek: The Next Generation*.  
-- Ý nghĩa: Sự trùng hợp có thể quan trọng - nhưng tùy ngữ cảnh.  
-- Ứng dụng: Nhận diện mẫu, phân tích tình báo, tránh gán ghép quá mức.  
+- Câu nói: "Đừng bao giờ bỏ qua sự trùng hợp. Trừ khi bạn bận, thì hãy luôn bỏ qua nó."
+- Nguồn gốc: Nhân vật William Riker, *Star Trek: The Next Generation*.
+- Ý nghĩa: Sự trùng hợp có thể quan trọng - nhưng tùy ngữ cảnh.
+- Ứng dụng: Nhận diện mẫu, phân tích tình báo, tránh gán ghép quá mức.
 - Ví dụ: Hai đồng nghiệp mặc cùng một chiếc áo. Có thể chỉ là tình cờ — trừ khi bạn đang điều tra gián điệp công ty.
 
 ## Jung's Razor
 
-- Câu nói: "Nếu điều gì có vẻ ngẫu nhiên, hãy coi nó là ngẫu nhiên cho đến khi có bằng chứng ngược lại."  
-- Nguồn gốc: Quy gán cho Carl Jung (liên quan đến khái niệm đồng bộ - synchronicity).  
-- Ý nghĩa: Đừng gán nghĩa ẩn sau sự kiện ngẫu nhiên nếu chưa có bằng chứng rõ ràng.  
-- Ứng dụng: Tâm lý học, thống kê, tránh mê tín.  
+- Câu nói: "Nếu điều gì có vẻ ngẫu nhiên, hãy coi nó là ngẫu nhiên cho đến khi có bằng chứng ngược lại."
+- Nguồn gốc: Quy gán cho Carl Jung (liên quan đến khái niệm đồng bộ - synchronicity).
+- Ý nghĩa: Đừng gán nghĩa ẩn sau sự kiện ngẫu nhiên nếu chưa có bằng chứng rõ ràng.
+- Ứng dụng: Tâm lý học, thống kê, tránh mê tín.
 - Ví dụ: Đổ xúc xắc ra số "6" ba lần liên tiếp. Hãy coi là ngẫu nhiên, trừ khi có bằng chứng xúc xắc bị gian lận.
 
 ## Chatton's Anti-Razor
 
-- Câu nói: "Nếu ba điều chưa đủ để chứng minh một mệnh đề khẳng định, thì phải thêm điều thứ tư - và cứ thế tiếp tục."  
-- Nguồn gốc: Walter Chatton (thế kỷ 14), cùng thời với Ockham.  
-- Ý nghĩa: Phản biện Occam's Razor: đôi khi sự đơn giản là chưa đủ, cần thêm yếu tố phức tạp để giải thích đúng bản chất.  
-- Ứng dụng: Trường hợp mà giản lược hóa quá mức dẫn đến sai lệch (vật lý, kinh tế, đạo đức).  
+- Câu nói: "Nếu ba điều chưa đủ để chứng minh một mệnh đề khẳng định, thì phải thêm điều thứ tư - và cứ thế tiếp tục."
+- Nguồn gốc: Walter Chatton (thế kỷ 14), cùng thời với Ockham.
+- Ý nghĩa: Phản biện Occam's Razor: đôi khi sự đơn giản là chưa đủ, cần thêm yếu tố phức tạp để giải thích đúng bản chất.
+- Ứng dụng: Trường hợp mà giản lược hóa quá mức dẫn đến sai lệch (vật lý, kinh tế, đạo đức).
 - Ví dụ: Giải thích hệ mặt trời chỉ bằng quỹ đạo tròn không đúng; thêm quỹ đạo elip (phức tạp hơn) mới đúng thực tế.
 
 ## Tóm tắt
 
-- Occam, Hanlon, Feynman → Đơn giản, khiêm tốn, kiểm tra sai sót.  
-- Hitchens, Sagan, Alder → Đòi hỏi bằng chứng, gắn với thực nghiệm.  
-- Hume, Grice, Chatton → Giới hạn của suy luận triết học.  
-- Riker, Jung → Thận trọng với sự trùng hợp và ngẫu nhiên.  
+- Occam, Hanlon, Feynman → Đơn giản, khiêm tốn, kiểm tra sai sót.
+- Hitchens, Sagan, Alder → Đòi hỏi bằng chứng, gắn với thực nghiệm.
+- Hume, Grice, Chatton → Giới hạn của suy luận triết học.
+- Riker, Jung → Thận trọng với sự trùng hợp và ngẫu nhiên.
 
 --
 # Philosophical Razor
