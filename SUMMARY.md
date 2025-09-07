@@ -7,6 +7,7 @@ s
   - [Python Counter](./TIL/20240612_python-counter.md)
   - [Add Holidays calendar](./TIL/20240614_add-holidays-calendar.md)
   - [UUID version 7 vs UUID version 4](./TIL/20240706_uuid7_vs_uuid4.md)
+  - [Dao cạo triết học/Phisological Razors](./TIL/20250907_phisolophical_razor.md)
 
 - 2025
   - [Vì sao mình chọn Shape Up](./2025/20250511_vi-sao-minh-chon-shape-up.md)
