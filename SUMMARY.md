@@ -22,7 +22,6 @@ s
      3. [Database - Part 3: Indexes](./2024/20240226_database-part-3-indexes.md)
   - [Ba "nghịch lý" khi đi làm](./2024/20240731_ba-ngich-ly-khi-di-lam.md)
   - [Reasons to hate someone](./2024/20241030_reasons-to-hate-someone.md)
-  - [Quy trình làm việc](./2024/20241123_quy-trinh-lam-viec.md)
 
 - 2023
   - Don't get hyped series
