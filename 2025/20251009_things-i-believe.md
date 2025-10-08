@@ -14,5 +14,5 @@ Bạn làm gì cũng được, chỉ cần bạn tốt hơn hôm qua một tí, 
 
 ## Work can also be your hobby -> Passion + boundaries > mythical "work-life balance"
 
-Đối với mình, "Work-life balance" (WLB) không phải là kiểu hết giờ là về và về là không đụng vào công việc.
+Đối với mình, "Work-life balance" (WLB) không phải là kiểu hết giờ là về và về là không đụng vào công việc. Vi
 
