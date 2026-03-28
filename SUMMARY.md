@@ -9,6 +9,9 @@ s
   - [UUID version 7 vs UUID version 4](./TIL/20240706_uuid7_vs_uuid4.md)
   - [Dao cạo triết học/Phisological Razors](./TIL/20250907_phisolophical_razor.md)
 
+- 2026
+  - [Manager hay Tech Lead? Hay là một phiên bản mới?](./2026/20260328_manager-hay-lead.md)
+
 - 2025
   - [Vì sao mình chọn Shape Up](./2025/20250511_vi-sao-minh-chon-shape-up.md)
   - [Các phép ngụy biện thường gặp chốn công sở](./2025/20250901_common-fallacy-in-working-environment.md)
