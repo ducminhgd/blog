@@ -11,6 +11,7 @@ s
 
 - 2026
   - [Manager hay Tech Lead? Hay là một phiên bản mới?](./2026/20260328_manager-hay-lead.md)
+  - [Kinh nghiệm về ERP](./2026/20260823_Kinh-nghiem-ve-ERP.md)
 
 - 2025
   - [Vì sao mình chọn Shape Up](./2025/20250511_vi-sao-minh-chon-shape-up.md)
