@@ -1258,11 +1258,11 @@ For example:
 
 Never drop the old index immediately after creating a replacement. First establish whether other queries still depend on it.
 
-# **10. Final architectural recommendation**
+### **10. Final architectural recommendation**
 
 If I were accountable for this production system, I would prioritize the following:
 
-### **Priority 1 — Fix the immediate performance problem**
+#### **Priority 1 — Fix the immediate performance problem**
 
 1. Identify generic versus custom plan behavior.
 2. Compare actual and estimated cardinalities.
@@ -1272,7 +1272,7 @@ If I were accountable for this production system, I would prioritize the followi
 
 Highest priority
 
-### **Priority 2 — Improve database predictability**
+#### **Priority 2 — Improve database predictability**
 
 1. Improve column and extended statistics.
 2. Monitor prepared statements.
@@ -1282,7 +1282,7 @@ Highest priority
 
 Medium-term
 
-### **Priority 3 — Improve multi-tenant scalability**
+#### **Priority 3 — Improve multi-tenant scalability**
 
 1. Classify tenants by resource consumption.
 2. Keep standard tenants on shared infrastructure.
