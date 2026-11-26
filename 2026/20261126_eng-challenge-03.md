@@ -2,9 +2,9 @@
 tags: Advanced, Database Engineering, Performance Debugging
 levels: Senior Engineer, Technical Architect
 ---
-# **Daily Engineering Challenge #03 — The PostgreSQL Query That Suddenly Became 100x Slower**
+## **Daily Engineering Challenge #03 — The PostgreSQL Query That Suddenly Became 100x Slower**
 
-## **1. Scenario**
+### **1. Scenario**
 
 You are the Technical Architect of a multi-tenant SaaS ERP platform.
 
@@ -27,7 +27,7 @@ No deployment occurred during the incident.
 
 The engineering team suspects PostgreSQL.
 
-## **2. System architecture**
+### **2. System architecture**
 
 [PgBouncer at Scale: 10K+ Connections Multi-Tenant Postgres](https://images.openai.com/static-rsc-4/0n2iX8zMsEzJBnTKDBm5Z_UpTIkoH-lR552XW7mhT9-s1xvXplwRd-qVgO-6rmcUG69XRKn7g-xLItjA_c0yCe7pGUzoJGHZYoMlSv2RZkoi6B40fwdI-1CAArL-cFwPh_m1AjxLxJtr-MsCCCDro-11IST_hnJOADjxjM3Vg2E?purpose=inline)
 
@@ -73,7 +73,7 @@ CREATE INDEX idx_invoice_lines_invoice
 ON invoice_lines (invoice_id);
 ```
 
-## **3. Production metrics**
+### **3. Production metrics**
 
 BEFORE AND DURING INCIDENT
 
@@ -96,7 +96,7 @@ Additional observations:
 - Other database queries remain relatively healthy.
 - Restarting application instances does not resolve the issue.
 
-## **4. Database characteristics**
+### **4. Database characteristics**
 
 Your production database has the following characteristics:
 
@@ -122,7 +122,7 @@ The application uses prepared statements.
 
 PostgreSQL's default query planner statistics target has not been customized for these tables.
 
-## **5. Investigation evidence**
+### **5. Investigation evidence**
 
 The database team captures two execution plans for the same logical query.
 
@@ -185,9 +185,9 @@ The query text is identical.
 
 The parameter values are different.
 
-## **6. Your investigation challenges**
+### **6. Your investigation challenges**
 
-### **Challenge A — Root cause analysis**
+#### **Challenge A — Root cause analysis**
 
 Identify the most plausible reasons for the radically different execution plans.
 
@@ -203,7 +203,7 @@ Investigate these concepts:
 
 Determine which observations are evidence and which are merely correlations.
 
-### **Challenge B — Index engineering**
+#### **Challenge B — Index engineering**
 
 Evaluate the current indexes.
 
@@ -217,7 +217,7 @@ Consider:
 
 Do not assume adding indexes always improves performance.
 
-### **Challenge C — Query planner investigation**
+#### **Challenge C — Query planner investigation**
 
 Design a systematic investigation using:
 
@@ -242,7 +242,7 @@ Determine how you would distinguish between:
 - Plan caching problems.
 - Memory pressure and disk spills.
 
-### **Challenge D — Multi-tenant architecture**
+#### **Challenge D — Multi-tenant architecture**
 
 The system currently uses shared tables.
 
@@ -265,7 +265,7 @@ Compare their implications for:
 
 Would you introduce a separate database for exceptionally large tenants?
 
-### **Challenge E — Production remediation**
+#### **Challenge E — Production remediation**
 
 Design a remediation strategy that does not require taking the system offline.
 
@@ -279,7 +279,7 @@ Address:
 - Monitoring and regression detection.
 - Rollback strategy.
 
-## **7. Additional constraints**
+### **7. Additional constraints**
 
 Your solution must account for these production requirements:
 
@@ -291,7 +291,7 @@ Your solution must account for these production requirements:
 6. Write throughput must remain stable.
 7. The system must support continuous schema migrations.
 
-## **8. Engineering considerations**
+### **8. Engineering considerations**
 
 A senior engineer should distinguish between several easily confused concepts:
 
@@ -328,7 +328,7 @@ No submission required. The challenge is for independent study. The solution rem
 
 ---
 
-# **Solution — Daily Engineering Challenge #03**
+## **Solution — Daily Engineering Challenge #03**
 
 **PostgreSQL query performance degradation in a multi-tenant SaaS architecture**
 
@@ -338,7 +338,7 @@ Advanced
 
 PostgreSQL 16
 
-## **1. Root cause analysis**
+### **1. Root cause analysis**
 
 The most likely root cause is a combination of **parameter-sensitive query planning, tenant data skew, and inaccurate cardinality estimation**.
 
@@ -346,7 +346,7 @@ The key observation is that identical SQL produces radically different execution
 
 PostgreSQL does not necessarily execute prepared statements using a newly optimized plan for every parameter set.
 
-### **1.1 Generic plans versus custom plans**
+#### **1.1 Generic plans versus custom plans**
 
 PostgreSQL supports two relevant prepared statement planning strategies.
 
@@ -379,7 +379,7 @@ The planner might choose an index scan for one execution and a sequential scan f
 
 **Important distinction:** A generic plan is not automatically the cause. A custom plan can also be poor if statistics or cardinality estimates are inaccurate.
 
-### **1.2 Why tenant data skew matters**
+#### **1.2 Why tenant data skew matters**
 
 Suppose the planner estimates:
 
@@ -404,7 +404,7 @@ The resulting execution plan can involve:
 
 The query then becomes much slower.
 
-### **1.3 Why the execution plan spills to disk**
+#### **1.3 Why the execution plan spills to disk**
 
 The slow plan reports:
 
@@ -427,7 +427,7 @@ A query with several sorts and hash operations can consume multiple allocations.
 
 Increasing `work_mem` globally is dangerous because hundreds of concurrent queries could multiply memory consumption.
 
-### **1.4 What the evidence actually tells us**
+#### **1.4 What the evidence actually tells us**
 
 | Observation                   | Interpretation                                                  |
 | ----------------------------- | --------------------------------------------------------------- |
@@ -441,7 +441,7 @@ Increasing `work_mem` globally is dangerous because hundreds of concurrent queri
 
 One additional concern: the supplied execution plans are simplified. The actual plan must be examined for estimated versus actual rows, loops, buffers, and planning time before concluding exactly where the bad decision originated.
 
-## **2. Index engineering**
+### **2. Index engineering**
 
 The current indexes are:
 
@@ -458,7 +458,7 @@ ON invoice_lines (invoice_id);
 
 The biggest opportunity is to support filtering and ordering together.
 
-### **2.1 Composite index**
+#### **2.1 Composite index**
 
 Recommended starting point:
 
@@ -496,7 +496,7 @@ This can avoid scanning and sorting a much larger result set.
 
 Note that the existing index `(tenant_id, status)` is a prefix of the new index and may become redundant for some workloads. Validate other queries before dropping it.
 
-### **2.2 Covering index**
+#### **2.2 Covering index**
 
 You could consider:
 
@@ -529,7 +529,7 @@ Also, the invoice-line aggregation still requires accessing `invoice_lines`.
 
 Do not include every selected column indiscriminately.
 
-### **2.3 Partial index**
+#### **2.3 Partial index**
 
 If the endpoint frequently retrieves only issued invoices:
 
@@ -551,7 +551,7 @@ Parameterized queries using a generic plan can complicate that determination bec
 
 This is another reason to understand prepared statement behavior before relying on partial indexes.
 
-### **2.4 Index design trade-offs**
+#### **2.4 Index design trade-offs**
 
 | Index strategy   | Benefit                        | Cost                       |
 | ---------------- | ------------------------------ | -------------------------- |
@@ -562,11 +562,11 @@ This is another reason to understand prepared statement behavior before relying 
 
 **Recommendation:** Start with the composite index. Measure its impact. Add covering or partial indexes only when execution plans justify them.
 
-## **3. Query planner investigation**
+### **3. Query planner investigation**
 
 The objective is to identify why PostgreSQL selected the wrong execution plan, not simply force it to use an index.
 
-### **3.1 Inspect actual execution plans**
+#### **3.1 Inspect actual execution plans**
 
 Start with:
 
@@ -609,7 +609,7 @@ Index Scan
 
 This indicates a severe cardinality estimation problem.
 
-### **3.2 Investigate prepared statements**
+#### **3.2 Investigate prepared statements**
 
 Inspect prepared statements:
 
@@ -653,7 +653,7 @@ Do not leave `force_custom_plan` enabled globally without workload testing.
 
 It can increase planning overhead substantially.
 
-### **3.3 Investigate statistics**
+#### **3.3 Investigate statistics**
 
 Inspect column statistics:
 
@@ -705,7 +705,7 @@ A higher target can improve estimates at the cost of additional analysis work an
 
 It does not guarantee accurate estimates for every highly skewed distribution.
 
-### **3.4 Instrumentation**
+#### **3.4 Instrumentation**
 
 I would enable the following monitoring capabilities:
 
@@ -749,7 +749,7 @@ SET auto_explain.log_timing = off;
 
 `log_analyze` adds overhead. Enable it selectively and evaluate the impact.
 
-### **3.5 Diagnostic decision matrix**
+#### **3.5 Diagnostic decision matrix**
 
 | Finding                         | Likely problem                      | Investigation                 |
 | ------------------------------- | ----------------------------------- | ----------------------------- |
@@ -761,7 +761,7 @@ SET auto_explain.log_timing = off;
 | High planning time              | Complex query or excessive planning | Planning metrics              |
 | Many waiting connections        | Pooling or contention               | `pg_stat_activity`, PgBouncer |
 
-## **4. Multi-tenant architecture**
+### **4. Multi-tenant architecture**
 
 The existing shared-table architecture is not inherently wrong.
 
@@ -769,7 +769,7 @@ The problem is that tenant workloads have dramatically different sizes and chara
 
 This is commonly called the *noisy neighbor problem*.
 
-### **4.1 Architecture comparison**
+#### **4.1 Architecture comparison**
 
 **Option A — Shared tables**
 
@@ -836,13 +836,13 @@ Disadvantages:
 - More complicated migrations.
 - Backup, monitoring and disaster recovery complexity.
 
-### **4.2 My recommendation: Hybrid multi-tenancy**
+#### **4.2 My recommendation: Hybrid multi-tenancy**
 
 I would not migrate all 2,000 tenants to separate databases.
 
 I would implement a tiered architecture.
 
-## **Hybrid tenant architecture**
+### **Hybrid tenant architecture**
 
 **Tier 1 — Standard tenants**
 
@@ -881,7 +881,7 @@ Important implementation requirements:
 - Support migration between database locations.
 - Maintain consistent schema versions across tiers.
 
-### **4.3 Should large tenants receive dedicated databases?**
+#### **4.3 Should large tenants receive dedicated databases?**
 
 Yes, when their resource consumption or isolation requirements justify the cost.
 
@@ -896,11 +896,11 @@ Useful migration triggers include:
 
 Do not use invoice count alone. Workload characteristics matter more than raw row counts.
 
-## **5. Production remediation**
+### **5. Production remediation**
 
 I would divide remediation into three phases.
 
-### **Phase 1 — Immediate mitigation**
+#### **Phase 1 — Immediate mitigation**
 
 Incident response
 
@@ -921,11 +921,11 @@ This can be applied to a dedicated transaction or workload-specific database con
 
 Do not apply it indiscriminately to every query.
 
-### **Phase 2 — Structural optimization**
+#### **Phase 2 — Structural optimization**
 
 Performance engineering
 
-#### **A. Add the composite index**
+###### **A. Add the composite index**
 
 ```
 CREATE INDEX CONCURRENTLY
@@ -941,7 +941,7 @@ ON invoices (
 
 Monitor index creation and validate it afterward.
 
-#### **B. Refresh statistics**
+###### **B. Refresh statistics**
 
 ```
 ANALYZE invoices;
@@ -951,7 +951,7 @@ ANALYZE customers;
 
 Create extended statistics where evidence supports them.
 
-#### **C. Rewrite the query**
+###### **C. Rewrite the query**
 
 This is an important optimization opportunity.
 
@@ -1014,7 +1014,7 @@ This transformation is valid because the ordering and filtering depend only on i
 
 The `id DESC` tie-breaker also makes pagination deterministic when invoices have identical timestamps.
 
-#### **D. Consider precomputed aggregates**
+###### **D. Consider precomputed aggregates**
 
 If invoice totals are read frequently and invoice lines rarely change after posting, maintain a materialized invoice total:
 
@@ -1034,7 +1034,7 @@ Trade-offs:
 
 For financial data, avoid an eventually consistent total unless the API clearly defines its consistency guarantees.
 
-### **Phase 3 — Long-term optimization**
+#### **Phase 3 — Long-term optimization**
 
 - Introduce tenant workload classification.
 - Isolate high-volume tenants.
@@ -1043,11 +1043,11 @@ For financial data, avoid an eventually consistent total unless the API clearly 
 - Establish automatic slow-query detection.
 - Introduce regression testing with production-like tenant distributions.
 
-## **6. PgBouncer and connection pooling**
+### **6. PgBouncer and connection pooling**
 
 This is an important part of the investigation because the application uses PgBouncer.
 
-### **6.1 Transaction pooling considerations**
+#### **6.1 Transaction pooling considerations**
 
 PgBouncer supports three pooling modes:
 
@@ -1071,7 +1071,7 @@ You must distinguish:
 
 Do not assume all prepared statement behavior is incompatible with transaction pooling.
 
-### **6.2 What I would inspect**
+#### **6.2 What I would inspect**
 
 ```
 [pgbouncer]
@@ -1096,7 +1096,7 @@ Inspect:
 - Transaction duration.
 - Server-side connection counts.
 
-### **6.3 Connection exhaustion**
+#### **6.3 Connection exhaustion**
 
 The incident shows:
 
@@ -1130,13 +1130,13 @@ SHOW SERVERS;
 
 Do not solve a slow-query problem simply by increasing the connection pool.
 
-## **7. Partitioning strategy**
+### **7. Partitioning strategy**
 
 Partitioning deserves consideration, especially for the 25-million-invoice tenant.
 
 However, partitioning is not an automatic solution to bad query plans.
 
-### **Option A: Hash partitioning by tenant**
+#### **Option A: Hash partitioning by tenant**
 
 ```
 CREATE TABLE invoices (
@@ -1163,7 +1163,7 @@ Disadvantages:
 - More complicated global index management.
 - Partitioning does not automatically solve parameter sensitivity.
 
-### **Option B: Range partitioning by time**
+#### **Option B: Range partitioning by time**
 
 ```
 PARTITION BY RANGE (created_at);
@@ -1181,7 +1181,7 @@ Disadvantages:
 - Every partition needs maintenance.
 - Unique constraints have partition-key implications.
 
-### **My recommendation**
+#### **My recommendation**
 
 Use time partitioning when data retention and time-based access patterns justify it.
 
@@ -1189,7 +1189,7 @@ Use tenant-based isolation for exceptionally large tenants.
 
 Do not create thousands of partitions simply because you have thousands of tenants.
 
-## **8. Production monitoring and regression prevention**
+### **8. Production monitoring and regression prevention**
 
 I would establish the following metrics.
 
@@ -1205,7 +1205,7 @@ I would establish the following metrics.
 | Storage     | Table/index growth          | Capacity planning        |
 | Operations  | Vacuum/analyze duration     | Maintenance health       |
 
-### **Define SLOs**
+#### **Define SLOs**
 
 For example:
 
@@ -1233,7 +1233,7 @@ Crucially, monitor latency by tenant size and workload class, not just globally.
 
 A global p95 can conceal severe degradation affecting a small number of enterprise customers.
 
-## **9. Rollout and rollback strategy**
+### **9. Rollout and rollback strategy**
 
 I would deploy the remediation in this order:
 
@@ -1262,7 +1262,7 @@ Never drop the old index immediately after creating a replacement. First establi
 
 If I were accountable for this production system, I would prioritize the following:
 
-## **Priority 1 — Fix the immediate performance problem**
+### **Priority 1 — Fix the immediate performance problem**
 
 1. Identify generic versus custom plan behavior.
 2. Compare actual and estimated cardinalities.
@@ -1272,7 +1272,7 @@ If I were accountable for this production system, I would prioritize the followi
 
 Highest priority
 
-## **Priority 2 — Improve database predictability**
+### **Priority 2 — Improve database predictability**
 
 1. Improve column and extended statistics.
 2. Monitor prepared statements.
@@ -1282,7 +1282,7 @@ Highest priority
 
 Medium-term
 
-## **Priority 3 — Improve multi-tenant scalability**
+### **Priority 3 — Improve multi-tenant scalability**
 
 1. Classify tenants by resource consumption.
 2. Keep standard tenants on shared infrastructure.
@@ -1292,7 +1292,7 @@ Medium-term
 
 Long-term
 
-## **11. The most important engineering lessons**
+### **11. The most important engineering lessons**
 
 There are five takeaways from this incident.
 
@@ -1316,7 +1316,7 @@ More connections do not automatically produce more throughput.
 
 `tenant_id` prevents logical data mixing when correctly enforced. It does not prevent one tenant from consuming disproportionate database resources.
 
-## **12. Further reading — Official documentation**
+### **12. Further reading — Official documentation**
 
 These are the primary references I would use to deepen the investigation.
 
