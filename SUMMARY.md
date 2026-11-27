@@ -1,6 +1,6 @@
-s
-
 - [About me](./README.md)
+
+- [Quote of the day](./quote-of-the-day.md)
 
 - Today I learn
   - [Request and response times at once using curl](./TIL/20240527_request-and-response-times-at-once-using-curl.md)
@@ -9,10 +9,17 @@ s
   - [UUID version 7 vs UUID version 4](./TIL/20240706_uuid7_vs_uuid4.md)
   - [Dao cạo triết học/Phisological Razors](./TIL/20250907_phisolophical_razor.md)
 
+- Daily facts
+  - [The Sun loses approximately 4 million tonnes of mass every second.](./2026/20261124_daily-fact.md)
+  - [A day on Venus is longer than a year on Venus.](./2026/20261125_daily-fact.md)
+  - [Lightning is approximately five times hotter than the surface of the Sun.](./2026/20261126_daily-fact.md)
+  - [Wombats produce cube-shaped feces. They are the only known animals to do this.](./2026/20261127_daily-fact.md)
+
 - 2026
   - [Manager hay Tech Lead? Hay là một phiên bản mới?](./2026/20260328_manager-hay-lead.md)
   - [Kinh nghiệm về ERP](./2026/20260823_Kinh-nghiem-ve-ERP.md)
-  - [Engineering Challenge #03 — The PostgreSQL Query That Suddenly Became 100x Slower](./2026/20261126_eng-challenge-03.md)
+  - [Daily Engineering Challenge #03 — The PostgreSQL Query That Suddenly Became 100x Slower](./2026/20261126_eng-challenge-03.md)
+  - [Daily IT Challenge #04 — Building a Correct Payment Processing Pipeline](./2026/20261127_eng-challenge-04.md)
 
 - 2025
   - [Vì sao mình chọn Shape Up](./2025/20250511_vi-sao-minh-chon-shape-up.md)
