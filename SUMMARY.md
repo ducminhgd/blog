@@ -14,12 +14,14 @@
   - [A day on Venus is longer than a year on Venus.](./2026/20261125_daily-fact.md)
   - [Lightning is approximately five times hotter than the surface of the Sun.](./2026/20261126_daily-fact.md)
   - [Wombats produce cube-shaped feces. They are the only known animals to do this.](./2026/20261127_daily-fact.md)
+  - [Greenland sharks can live for more than 400 years](./2026/20261128_daily-fact.md)
 
 - 2026
   - [Manager hay Tech Lead? Hay là một phiên bản mới?](./2026/20260328_manager-hay-lead.md)
   - [Kinh nghiệm về ERP](./2026/20260823_Kinh-nghiem-ve-ERP.md)
   - [Daily Engineering Challenge #03 — The PostgreSQL Query That Suddenly Became 100x Slower](./2026/20261126_eng-challenge-03.md)
   - [Daily IT Challenge #04 — Building a Correct Payment Processing Pipeline](./2026/20261127_eng-challenge-04.md)
+  - [Daily IT Challenge #05 — Diagnosing a Kubernetes CPU and Latency Incident](./2026/20261128_eng-challenge-05.md)
 
 - 2025
   - [Vì sao mình chọn Shape Up](./2025/20250511_vi-sao-minh-chon-shape-up.md)

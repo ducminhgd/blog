@@ -2,11 +2,11 @@
 
 Science · Animal Physiology
 
-[Land mammals | Native animals | Environment and Heritage](https://images.openai.com/static-rsc-4/TbAjBFjtBnlYaZv4Vc0U7e-nEm9ZfxLqEdYYM302wdCQebN57Z4tSwE9pCvj8mJLbYtF7h0IDXeXBXWrLaht0GtjQu9Cb8EmaqmKiWVc4J0oyDc_z2osn4Goy48lIviqjKTa8aSYnkFYvvaycFWaQyN2IiOhdFTSjqxNXMup9wQ?purpose=inline)
+![Land mammals | Native animals | Environment and Heritage](../media/20261127_daily-fac-01.jpg)
 
-[Poop Cube? | Gross Out Article for Students | Scholastic Science World Magazine](https://images.openai.com/static-rsc-4/ZU-Dgqf660HewrcRqbgnd-iijgGBs2811ikXdU_DN_EbvEL4PXI7ouRN-WQEdakWH910A0londgbgpPnYpvWjrmbBvfLKoXbkhNRt99hnZCbNmPthnzCOR3aW3sfQAZWLX2uMht4sltAfAk_mmWltR0RgwDG_hTYl4BnCKwLg3U?purpose=inline)
+![Poop Cube? | Gross Out Article for Students | Scholastic Science World Magazine](../media/20261127_daily-fac-02.jpg)
 
-[Wombats (Facts & Photos) | Bush Heritage Australia](https://images.openai.com/static-rsc-4/rCVGk7imh2N03k-0uNanIAWTdo0CtmrHDBxl7ZqkeFk4SA9nc3AC1ULUt_wHBdSWJdoJ_sdkN1uwrXIDIaDA1gnlIICoqUIZvfRxzgYwTcCPJtufxgqkA8BHXFlJ1-P8_wiigURwQ8PdM6-XlnPZl6Zypz_VFoSPhd4BIYshTUQ?purpose=inline)
+![Wombats (Facts & Photos) | Bush Heritage Australia](../media/20261127_daily-fac-03.jpg)
 
 **Wombats produce cube-shaped feces. They are the only known animals to do this.**
 
@@ -18,8 +18,5 @@ The explanation is surprisingly technical:
 - Researchers published this mechanism in the journal *Soft Matter* in 2021.
 
 Scientists also suggest that cube-shaped droppings help wombats mark their territory without the droppings rolling away.
-
-[image](https://www.google.com/s2/favicons?domain=https://www.utas.edu.au\&sz=32)
-
 
 **Interesting implication:** A biological digestive system has effectively evolved a natural mechanism for manufacturing geometric shapes.

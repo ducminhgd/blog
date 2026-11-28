@@ -29,7 +29,7 @@ The engineering team suspects PostgreSQL.
 
 ### **2. System architecture**
 
-[PgBouncer at Scale: 10K+ Connections Multi-Tenant Postgres](https://images.openai.com/static-rsc-4/0n2iX8zMsEzJBnTKDBm5Z_UpTIkoH-lR552XW7mhT9-s1xvXplwRd-qVgO-6rmcUG69XRKn7g-xLItjA_c0yCe7pGUzoJGHZYoMlSv2RZkoi6B40fwdI-1CAArL-cFwPh_m1AjxLxJtr-MsCCCDro-11IST_hnJOADjxjM3Vg2E?purpose=inline)
+![PgBouncer at Scale: 10K+ Connections Multi-Tenant Postgres](../media/20261126_eng-challenge-03_001.jpg)
 
 [dzone.com](https://dzone.com/articles/database-connection-pooling-at-scale-pgbouncer-mul?utm_source=chatgpt.com)
 

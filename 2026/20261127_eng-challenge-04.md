@@ -385,7 +385,7 @@ I would use:
 
 #### **High-level architecture**
 
-[Payment Gateway (Stripe) System Design with Microsoft Engineer | andreyka26 tech](https://images.openai.com/static-rsc-4/a8kTOQutNanz38a7hWt2pA4_YFWN9yc6GtkQy-DjKz2dmuH56YAj_qSVqlkQEfQEOzaLy5_oZHXUkJyBhVLReVtD66drZ3gs0YKVy6UHrztbAABq18MxYE4CTDmI7UK162G4A_VowCMmmeMivRDrJBm0V14njeXlKTReVNZ5EdY?purpose=inline)
+![Payment Gateway (Stripe) System Design with Microsoft Engineer | andreyka26 tech](../media/20261127_eng-challenge-04_001.jpg)
 
 [andreyka26.com](https://andreyka26.com/payment-gateway-stripe-system-design-with-microsoft-engineer?utm_source=chatgpt.com)
 
@@ -1318,7 +1318,7 @@ Reconciliation is not an optional administrative tool.
 
 It is part of the core correctness model.
 
-[White-Label Payment Gateway Vendor: How to Choose](https://images.openai.com/static-rsc-4/uXNzMyF7-7DoByccyJjgpmkiAbYrFVYyuEENC426cSzP99O5ICxkP5ibhhIwHMJZ0dlCPvWpQax6qbREys_LsDF2nwWJyrvEB24ROXLm3bBAH-bVmjBtIMfujmW2grjJ59leQIIbmg5IAs3OX0RLRtqo-twtjXxLw8iKNBj_XJI?purpose=inline)
+![White-Label Payment Gateway Vendor: How to Choose](../media/20261127_eng-challenge-04_002.jpg)
 
 [finon.tech](https://finon.tech/blog/white-label-payment-gateway-rfp-checklist?utm_source=chatgpt.com)
 
